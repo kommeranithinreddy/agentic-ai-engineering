@@ -1,0 +1,22 @@
+# Virtual environments
+
+.venv/
+venv/
+
+# Python-generated files
+
+**pycache**/
+*.py[cod]
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Keep example configuration files
+
+!.env.example
+
+# Editor settings
+
+.vscode/
