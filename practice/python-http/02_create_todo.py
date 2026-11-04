@@ -6,7 +6,7 @@ data = {
     "completed": False
     }
 print(type(data))
-response = httpx.post("https://jsonplaceholder.typicode.com/todos", json = data) #user json instead of data and check the respone in content-type
+response = httpx.post("https://jsonplaceholder.typicode.com/todos", json = data) #use json instead of data and check the respone in content-type
 
 print(response.status_code)
 print(response.json())
